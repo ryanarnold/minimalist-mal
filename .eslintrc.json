@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": ["plugin:react/recommended", "airbnb", "prettier"],
   "parser": "@typescript-eslint/parser",
@@ -16,6 +17,7 @@
   "rules": {
     "import/extensions": 0,
     "no-unused-vars": 0,
+    "no-console": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [
       2,
