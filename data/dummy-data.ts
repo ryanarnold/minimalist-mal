@@ -1,7 +1,8 @@
 import { Timestamp } from 'firebase/firestore';
 
-export default [
+export const dummyAnime = [
   {
+    id: 0,
     title_en: 'Kaguya-sama: Love is War - Ultra Romantic',
     title_jp: 'かぐや様は告らせたい-ウルトラロマンティック-',
     done_airing: false,
@@ -13,6 +14,7 @@ export default [
     total_episodes: 12,
   },
   {
+    id: 1,
     title_en: 'Baccano!',
     title_jp: 'バッカーノ！',
     done_airing: true,
@@ -24,6 +26,7 @@ export default [
     total_episodes: 13,
   },
   {
+    id: 2,
     title_en: 'My Hero Academia',
     title_jp: '僕のヒーローアカデミア',
     done_airing: true,
@@ -35,6 +38,7 @@ export default [
     total_episodes: 13,
   },
   {
+    id: 3,
     title_en: '5 Centimeters Per Second',
     title_jp: '秒速５センチメートル',
     done_airing: true,
@@ -46,6 +50,7 @@ export default [
     total_episodes: 3,
   },
   {
+    id: 4,
     title_en: 'Clannad',
     title_jp: 'CLANNAD',
     done_airing: true,
@@ -57,6 +62,7 @@ export default [
     total_episodes: 23,
   },
   {
+    id: 5,
     title_en: 'Clannad: After Story',
     title_jp: 'クラナド アフターストーリー',
     done_airing: true,
@@ -66,5 +72,15 @@ export default [
     synopsis:
       "Clannad: After Story, the sequel to the critically acclaimed slice-of-life series Clannad, begins after Tomoya Okazaki and Nagisa Furukawa graduate from high school. Together, they experience the emotional rollercoaster of growing up. Unable to decide on a course for his future, Tomoya learns the value of a strong work ethic and discovers the strength of Nagisa's support. Through the couple's dedication and unity of purpose, they push forward to confront their personal problems, deepen their old relationships, and create new bonds.\nTime also moves on in the Illusionary World. As the plains grow cold with the approach of winter, the Illusionary Girl and the Garbage Doll are presented with a difficult situation that reveals the World's true purpose.\nBased on the visual novel by Key and produced by Kyoto Animation, Clannad: After Story is an impactful drama highlighting the importance of family and the struggles of adulthood.",
     total_episodes: 24,
+  },
+];
+
+export const dummyUserAnimeList = [
+  {
+    anime: 'Baccano!',
+    episodes_watched: 5,
+    rating: 5,
+    status: 'complete',
+    uid: 'sjH4tibVodWlKDt6lXCF06FXLWE2',
   },
 ];
